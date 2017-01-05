@@ -2,16 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
- var num int
- var k int
- var output[] int
- fmt.Scanf("%d\n", &num) 
- final := iteration(num, k, output);
- fmt.Printf("%d\n", final[0])
- fmt.Printf("%d\n", final[1]) 
- }
-
 func iteration(num int, k int, output[] int)([]int){
 	var s[] int
 	var array[] int
@@ -64,6 +54,16 @@ func dosum(list[] int , i int, sum int)(int){
 	}
 	return sum
 }
+
+func main() {
+ var num int
+ var k int
+ var output[] int
+ fmt.Scanf("%d\n", &num) 
+ final := iteration(num, k, output);
+ fmt.Printf("%d\n", final[0])
+ fmt.Printf("%d\n", final[1]) 
+ }
  
 
  
